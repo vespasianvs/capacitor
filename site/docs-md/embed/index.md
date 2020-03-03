@@ -40,15 +40,19 @@ end
 
 Where `VERSION` is the latest version of Capacitor.
 
-Finally, create an empty JSON file in your app folder named capacitor.config.json. It should have the contents "{}" without quotes.
+Next, ceate a stub JSON file in your app project folder named capacitor.config.json. It should have the contents "{}" without quotes.
+
+Finally, create an empty file named `config.xml` in the app project folder.
 
 ### Create index.html
 
 For the content you'd like to load, make sure it exists in the project. The default path is `public/index.html`, so if you would like to use that, then create and add to your project a folder called `public` and then an HTML file that will be the root of your capacitor app in `index.html`. Make sure to add these to your main app project in your app workspace.
 
-### Open Xcode Workspace
+### Open Xcode Workspace and Add Files
 
-To run your app in Xcode, make sure to open the Xcode _xcworkspace_ file, not the _xcodeproj_ file to correctly use the installed Pod. Make sure to Add the capacitor.config.json file and the index.html file to the main app sub-project.
+To run your app in Xcode, make sure to open the Xcode _xcworkspace_ file, not the _xcodeproj_ file to correctly use the installed Pod.
+
+Make sure to Add the `capacitor.config.json`, `config.xml`, and `public/index.html` files to the main app sub-project.
 
 ### Usage
 
