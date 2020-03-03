@@ -21,6 +21,7 @@ To embed Capacitor in an existing native app, first install the `@capacitor/core
 
 ```
 npm install @capacitor/core
+mkdir MyApp/public/
 cp node_modules/\@capacitor/core/native-bridge.js MyApp/public/
 ```
 
