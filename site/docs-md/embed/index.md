@@ -94,7 +94,7 @@ allprojects {
 }
 ```
 
-Next, in the `build.gradle` file for your app, add the `capacitor-android` dependency:
+Next, in the `build.gradle` file for your app (note: this is not the same gradle file as above), add the `capacitor-android` dependency:
 
 ```gradle
 dependencies {
