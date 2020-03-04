@@ -80,6 +80,7 @@ The installation process for Capacitor involves installing a node module to grab
 
 ```
 npm install @capacitor/core
+mkdir MyApp/public/
 cp node_modules/\@capacitor/core/native-bridge.js MyApp/public/
 ```
 
